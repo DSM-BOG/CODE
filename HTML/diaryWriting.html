@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOG</title>
+    <link rel="icon" href="../img/BOG_logo.png">
+    <link rel="stylesheet" href="../CSS/header.css">
+    <link rel="stylesheet" href="../CSS/diaryWriting.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="../img/BOG_logo.png" alt="로고" width="110" />
+        </div>
+        <div class="menu">
+            <a href="#" class="menu-item">일기 쓰러 가기</a>
+            <a href="./mainPage.html" class="menu-item">일기 보러 가기</a>
+            <a href="./community.html" class="menu-item">커뮤니티</a>
+        </div>
+
+        <a  href="./myPage.html" style="color: white; text-decoration: none;">OOO님 환영합니다.</a>
+    </div>
+
+    <div class="container">
+        <div>
+            <div class="divGap">
+                <div class="titleWriting">
+                    <input id="titleInput" placeholder="제목을 입력해주세요."></input>
+                    <div class="titleLine"></div>
+                </div>
+            </div>
+
+            <div class="divGap">
+                <div>
+                    <div class="moodFlex">
+                        <p class="title">기분에 맞는 떡을 선택해주세요!</p>
+                        <p class="checkNotPossible">중복 체크가 불가능합니다</p>
+                    </div>
+                </div>
+                <div class="imgFlexList">
+                    <div class="imgFlex">
+                        <button class="imgBtn">
+                            <img src="../assets/행복한 떡.png" alt="">
+                            <p>행복한 떡</p>
+                        </button>
+                    </div>
+                    <div class="imgFlex">
+                        <button class="imgBtn">
+                            <img src="../assets/기분 좋은 떡.png" alt="">
+                            <p>기분 좋은 떡</p>
+                        </button>
+                    </div>
+                    <div class="imgFlex">
+                        <button class="imgBtn">
+                            <img src="../assets/화난 떡.png" alt="">
+                            <p>화난 떡</p>
+                        </button>
+                    </div>
+                    <div class="imgFlex">
+                        <button class="imgBtn">
+                            <img src="../assets/슬픈 떡.png" alt="">
+                            <p>슬픈 떡</p>
+                        </button>
+                    </div>
+                    <div class="imgFlex">
+                        <button class="imgBtn">
+                            <img src="../assets/우울한 떡.png" alt="">
+                            <p>우울한 떡</p>
+                        </button>
+                    </div>
+                    <div class="imgFlex">
+                        <button class="imgBtn">
+                            <img src="../assets/애매한 떡.png" alt="">
+                            <p>애매한 떡</p>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divGap">
+                <p class="title">오늘의 날씨를 알려주세요!</p>
+                <input id="weatherInput" type="text" placeholder="날씨를 입력해주세요.">
+            </div>
+
+            <div class="divGap">
+                <p class="title">오늘 당신의 하루에 대해 설명해주세요!</p>
+                <input id="writeInput" type="text" placeholder="일기를 작성해주세요.">
+                <div class="writeLine"></div>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: center;">
+        <div class="btnContainer">
+            <div></div>
+            <div class="shareBtn">
+                <p>익명이 보장됩니다!</p>
+                <button class="shareBtnBackground">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                        <p>일기 공유</p>
+                        <div class="butInImg">
+                            <a href="./mainPage.html"><img src="../assets/일기 공유 버튼.png" alt=""></a>
+                        </div>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

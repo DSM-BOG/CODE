@@ -1,0 +1,356 @@
+@font-face {
+  font-family: "GangwonEdu_OTFBoldA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "GangwonEdu_OTFBoldA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff")
+    format("woff");
+}
+
+.Box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 145px;
+}
+
+.LeftBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.NameBox {
+  width: 320px;
+  height: 80px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px;
+  border-color: #61c251;
+  text-align: left;
+}
+
+.NameDiv {
+  margin-left: 20px;
+  margin-top: 17px;
+}
+
+.Name {
+  font-size: 30px;
+  font-family: "GangwonEdu_OTFBoldA";
+}
+
+.Email {
+  font-size: 15px;
+  margin-left: 5px;
+  font-family: "GangwonEdu_OTFBoldA";
+  opacity: 35%;
+}
+
+.BtnBox {
+  margin-top: 120px;
+}
+
+.ChangePW {
+  font-size: 25px;
+  font-family: "GangwonEdu_OTFBoldA";
+}
+
+.ChangePWBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.ChangePWBtn {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  margin-left: 80px;
+  margin-top: -7px;
+}
+
+:hover.ChangePWBtn {
+  background-color: rgb(241, 241, 241);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.GreenBtn {
+  width: 27px;
+  height: 27px;
+  margin-bottom: 1px;
+  margin-left: -4px;
+}
+
+.LogoutBox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.LogOut {
+  font-size: 25px;
+  font-family: "GangwonEdu_OTFBoldA";
+}
+
+.LogOutBtn {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  margin-top: -4px;
+  margin-left: 157px;
+}
+
+:hover.LogOutBtn {
+  background-color: rgb(241, 241, 241);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.RedBtn {
+  width: 27px;
+  height: 30px;
+  margin-bottom: 1px;
+  margin-left: -5px;
+}
+
+.MiddleBox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 170px;
+}
+
+.Title {
+  display: flex;
+  flex-direction: row;
+}
+
+.ListIcon {
+  width: 28px;
+  height: 28px;
+}
+
+.BucketList {
+  font-size: 28px;
+  font-family: "GangwonEdu_OTFBoldA";
+  margin-left: 26px;
+  margin-top: 2.5px;
+}
+
+.CheckIcon {
+  width: 26px;
+  height: 26px;
+  margin-left: 39px;
+}
+
+.ListBox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+}
+
+.ListContent {
+  color: #000;
+  font-family: GangwonEduAll;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Line {
+  width: 410.001px;
+  height: 0.5px;
+  background-color: black;
+  margin-top: 6px;
+}
+
+.CheckBox {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  background: #fff;
+  margin-left: 18px;
+  margin-top: 2px;
+}
+
+.Did {
+  width: 22px;
+  height: 19px;
+  margin-top: 5px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.Delete {
+  width: 28px;
+  height: 26px;
+  margin-top: 11px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.ListBox1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 37px;
+}
+
+.AddBtn {
+  width: 30px;
+  height: 26px;
+  margin-left: -6.4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.ListBtnBox {
+  width: 220px;
+  height: 65px;
+  background-color: #61c251;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 460px;
+  margin-left: 50px;
+}
+
+.ListBtnContent {
+  color: #fff;
+  font-family: GangwonEduAll;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 17px;
+  margin-left: 25px;
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  flex-shrink: 0;
+  background-color: white;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+  margin-top: 7px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+:hover.circle {
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Diary {
+  width: 30px;
+  height: 30px;
+  margin-top: 7px;
+}
+
+.ModalBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  /* 배경 어두운 효과 */
+  z-index: 1000;
+  /* 다른 요소들보다 위에 위치 */
+}
+
+.ModalContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  /* 모달 배경색 */
+  width: 390px;
+  height: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  /* 그림자 효과 */
+}
+
+.LogoutWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.LogoutTitle {
+  font-family: "GangwonEdu_OTFBoldA";
+  font-size: 30px;
+}
+
+.Ask {
+  font-family: "GangwonEdu_OTFBoldA";
+  font-size: 16px;
+}
+
+.ButtonBox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.XBtn {
+  width: 80px;
+  height: 25px;
+  background-color: #eb5656;
+  border-radius: 30px;
+  font-size: 17px;
+  font-family: "GangwonEdu_OTFBoldA";
+  color: white;
+  padding-top: 7px;
+  border: none;
+  cursor: pointer;
+  margin-right: 30px;
+}
+
+:hover.XBtn {
+  background-color: #e83737;
+  transition: 0.3s;
+}
+
+.CheckBtn {
+  width: 80px;
+  height: 25px;
+  background-color: #61c251;
+  border-radius: 30px;
+  font-size: 17px;
+  font-family: "GangwonEdu_OTFBoldA";
+  color: white;
+  padding-top: 7px;
+  border: none;
+  cursor: pointer;
+}
+
+:hover.CheckBtn {
+  background-color: #3fbf2b;
+}

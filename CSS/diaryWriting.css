@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "GangwonEdu_OTFBoldA";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "GangwonEdu_OTFBoldA";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff") format("woff");
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+
+}
+
+.divGap {
+    margin-top: 50px;
+}
+
+#titleInput {
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 32px;
+    font-weight: 400;
+    border: none;
+}
+
+#titleInput:focus {
+    outline: none;
+}
+
+.titleLine {
+    width: 1310px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.22);
+    margin-top: 7px;
+}
+
+.titleWriting {
+    display: flex;
+    flex-direction: column;
+}
+
+.moodFlex {
+    display: flex;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.checkNotPossible {
+    color: rgba(255, 0, 0, 0.4);
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.imgFlexList {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+
+.imgFlexList .imgFlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgFlexList .imgFlex img {
+    width: 90px;
+}
+
+.imgFlexList .imgFlex:not(:first-child) {
+    margin-left: 30px;
+}
+
+.imgBtn {
+    border: none;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    background-color: #fff;
+}
+
+.imgBtn:hover,
+.imgBtn:focus {
+    transition-property: background-color;
+    transition-duration: 0.7s;
+    background-color: #d1d1d149;
+
+}
+
+
+#weatherInput {
+    width: 1310px;
+    height: 49px;
+
+    border-radius: 20px;
+    border: 1px solid #61c251;
+
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 13px;
+}
+
+#writeInput {
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 20px;
+    font-weight: 400;
+    border: none;
+    width: 1310px;
+}
+
+#writeInput:focus {
+    outline: none;
+}
+
+.writeLine {
+    width: 1310px;
+    height: 1px;
+    background: #61c251;
+}
+
+.butInImg {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.217);
+}
+
+.butInImg img {
+    width: 32px;
+}
+
+.shareBtnBackground {
+    border-radius: 50px;
+    border: none;
+    background: #61c251;
+    padding: 10px;
+
+    width: 250px;
+}
+
+.shareBtnBackground p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    box-sizing: content-box;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.shareBtn {
+    margin-top: 30px;
+}
+
+.shareBtn>p {
+    color: rgba(0, 0, 0, 0.34);
+    font-size: 22px;
+    font-weight: 400;
+
+    margin: 0%;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.btnContainer {
+    width: 1310px;
+    display: flex;
+    justify-content: space-between;
+
+}

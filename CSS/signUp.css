@@ -1,0 +1,178 @@
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+.back{
+  display: flex;
+        
+        justify-content: center;
+}
+h1{
+  position: fixed;
+  left: 335px;
+  top: 100px;
+  font-size: 60px;
+  text-align: center;
+  font-family: 'GangwonEdu_OTFBoldA';
+font-weight: normal;
+font-style: normal;
+}
+img{
+  position: fixed;
+  left: 135px;
+  top: 128px;
+  width: 160px;
+}
+.id {
+  width: 730px;
+  height: 40px;
+  border-bottom: solid 1px #418536;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 20px 0px 20px 0px;
+  position: fixed;
+  left: 595px;
+  top: 248px;
+  font-size: 30px;
+}
+.id:focus{
+  outline: none;
+}
+.id_lb{
+position: fixed;
+left: 595px;
+top: 233px;
+font-size: 35px;
+}
+.pw {
+  width: 730px;
+  height: 40px;
+  border-bottom: solid 1px #418536;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 20px 0px 20px 0px;
+  position: fixed;
+  left: 595px;
+  top: 388px;
+  font-size: 30px;
+}
+.pw:focus{
+  outline: none;
+}
+.pw_lb{
+position: fixed;
+left: 595px;
+top: 373px;
+font-size: 35px;
+}
+.ck_pw{
+  width: 730px;
+  height: 40px;
+  border-bottom: solid 1px #418536;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 20px 0px 20px 0px;
+  position: fixed;
+  left: 595px;
+  top: 528px;
+  font-size: 30px;
+}
+.ck_pw:focus{
+  outline: none;
+}
+.ckpw_lb{
+  position: fixed;
+  left: 595px;
+  top: 513px;
+  font-size: 35px;
+  }
+
+.email{
+  width: 730px;
+  height: 40px;
+  border-bottom: solid 1px #418536;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 20px 0px 20px 0px;
+  position: fixed;
+  left: 595px;
+  top: 668px;
+  font-size: 30px;
+}
+.email:focus{
+  outline: none;
+}
+.email_lb{
+  position: fixed;
+  left: 595px;
+  top: 643px;
+  font-size: 35px;
+  }
+
+ .name_lb{
+    position: fixed;
+    left: 595px;
+    top: 783px;
+    font-size: 35px;
+    }
+.name{
+  width: 730px;
+  height: 40px;
+  border-bottom: solid 1px #418536;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin: 20px 0px 20px 0px;
+  position: fixed;
+  left: 595px;
+  top: 808px;
+font-size: 16px;
+  font-size: 30px;
+}
+.name:focus{
+  outline: none;
+}
+button{
+float: right;
+border-radius: 100%;
+width: 435px;
+height: 435px;
+position: fixed;
+left: 1702px;
+top:262px;
+color: #fff;
+background-color: #3ED226;
+border: none;
+font-size: 40px;
+text-align: left;
+
+}
+.shape1{
+  width: 213px;
+    height: 213px;
+    background-color: #3ED226;
+    border-radius: 100%;
+    position: fixed;
+    left: -119px;
+    top: 290px;
+  }
+  .shape2{
+    width: 566px;
+    height: 566px;
+    background-color: #3ED226;
+    border-radius: 100%;
+    position: fixed;
+    left: -189px;
+    top: 570px;
+  }

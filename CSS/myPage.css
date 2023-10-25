@@ -1,0 +1,270 @@
+@font-face {
+  font-family: "GangwonEdu_OTFBoldA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "GangwonEdu_OTFBoldA";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff")
+    format("woff");
+}
+
+.Box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 145px;
+}
+
+.LeftBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.NameBox {
+  width: 320px;
+  height: 80px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  border: solid 1px;
+  border-color: #61c251;
+  text-align: left;
+}
+
+.NameDiv {
+  margin-left: 20px;
+  margin-top: 17px;
+}
+
+.Name {
+  font-size: 30px;
+  font-family: "GangwonEdu_OTFBoldA";
+}
+
+.Email {
+  font-size: 15px;
+  margin-left: 5px;
+  font-family: "GangwonEdu_OTFBoldA";
+  opacity: 35%;
+}
+
+.BtnBox {
+  margin-top: 120px;
+}
+
+.ChangePW {
+  font-size: 25px;
+  font-family: "GangwonEdu_OTFBoldA";
+}
+
+.ChangePWBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.ChangePWBtn {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  margin-left: 80px;
+  margin-top: -7px;
+}
+
+:hover.ChangePWBtn {
+  background-color: rgb(241, 241, 241);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.GreenBtn {
+  width: 27px;
+  height: 27px;
+  margin-bottom: 1px;
+  margin-left: -4px;
+}
+
+.LogoutBox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.LogOut {
+  font-size: 25px;
+  font-family: "GangwonEdu_OTFBoldA";
+}
+
+.LogOutBtn {
+  display: flex;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50px;
+  background-color: white;
+  margin-top: -4px;
+  margin-left: 157px;
+}
+
+:hover.LogOutBtn {
+  background-color: rgb(241, 241, 241);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.RedBtn {
+  width: 27px;
+  height: 30px;
+  margin-bottom: 1px;
+  margin-left: -5px;
+}
+
+.MiddleBox {
+  display: flex;
+  flex-direction: column;
+  margin-left: 170px;
+}
+
+.Title {
+  display: flex;
+  flex-direction: row;
+}
+
+.ListIcon {
+  width: 28px;
+  height: 28px;
+}
+
+.BucketList {
+  font-size: 28px;
+  font-family: "GangwonEdu_OTFBoldA";
+  margin-left: 26px;
+  margin-top: 2.5px;
+}
+
+.CheckIcon {
+  width: 26px;
+  height: 26px;
+  margin-left: 39px;
+}
+
+.ListBox {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+}
+
+.ListContent {
+  color: #000;
+  font-family: GangwonEduAll;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.Line {
+  width: 410.001px;
+  height: 0.5px;
+  background-color: black;
+  margin-top: 6px;
+}
+
+.CheckBox {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid #000;
+  background: #fff;
+  margin-left: 18px;
+  margin-top: 2px;
+}
+
+.Did {
+  width: 22px;
+  height: 19px;
+  margin-top: 5px;
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.Delete {
+  width: 28px;
+  height: 26px;
+  margin-top: 11px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.ListBox1 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 37px;
+}
+
+.AddBtn {
+  width: 30px;
+  height: 26px;
+  margin-left: -6.4px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.ListBtnBox {
+  width: 220px;
+  height: 65px;
+  background-color: #61c251;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 460px;
+  margin-left: 50px;
+}
+
+.ListBtnContent {
+  color: #fff;
+  font-family: GangwonEduAll;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 17px;
+  margin-left: 25px;
+}
+
+.circle {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  flex-shrink: 0;
+  background-color: white;
+  filter: drop-shadow(0px 4px 8px rgba(0, 0, 0, 0.25));
+  margin-top: 7px;
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+:hover.circle {
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Diary {
+  width: 30px;
+  height: 30px;
+  margin-top: 7px;
+}

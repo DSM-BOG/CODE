@@ -1,0 +1,319 @@
+.diary1{
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.17);
+  border-style: solid;
+  border-radius: 10px;
+  width: 460px;
+  height: 300px;
+  position: fixed;
+  left: 135px;
+  top: 180px;
+  box-shadow: 2px 2px rgba(112, 107, 107, 0.148);
+}
+.feel1{
+  font-size: 30px;
+  position: fixed;
+  left: 185px;
+  top: 205px;
+}
+.dduck1{
+  position: fixed;
+  left: 475px;
+  top: 205px;
+}
+.weth1{
+  font-size: 16px;
+  position: fixed;
+  left: 185px;
+  top: 254px;
+  
+}
+.ther1{
+  font-size: 16px;
+  position: fixed;
+  left: 255px;
+  top: 254px; 
+}
+.ind1{
+  border-width: 1px;
+  border-color: rgba(65, 133, 54, 1);
+  border-style: solid;
+  border-radius: 20px;
+  width: 360px;
+  height: 150px;
+  position: fixed;
+  left: 185px;
+  top: 297px;
+}
+.gul1{
+  font-size: 20px;
+  line-height: 22px;
+  position: fixed;
+  left: 200px;
+  top: 314px;
+}
+.diary2{
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.17);
+  border-style: solid;
+  border-radius: 10px;
+  width: 460px;
+  height: 300px;
+  position: fixed;
+  left: 730px;
+  top: 180px;
+  box-shadow: 2px 2px rgba(112, 107, 107, 0.148);
+}
+.feel2{
+  font-size: 30px;
+  position: fixed;
+  left: 780px;
+  top: 205px;
+}
+.dduck2{
+  position: fixed;
+  left: 1070px;
+  top: 205px;
+}
+.weth2{
+  font-size: 16px;
+  position: fixed;
+  left: 780px;
+  top: 254px;
+}
+.ther2{
+  font-size: 16px;
+  position: fixed;
+  left: 850px;
+  top: 254px; 
+}
+.ind2{
+  border-width: 1px;
+  border-color: rgba(65, 133, 54, 1);
+  border-style: solid;
+  border-radius: 20px;
+  width: 360px;
+  height: 150px;
+  position: fixed;
+  left: 780px;
+  top: 297px;
+}
+.gul2{
+  font-size: 20px;
+  line-height: 22px;
+  position: fixed;
+  left: 795px;
+  top: 314px;
+}
+.diary3{
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.17);
+  border-style: solid;
+  border-radius: 10px;
+  width: 460px;
+  height: 300px;
+  position: fixed;
+  left: 1325px;
+  top: 180px;
+  box-shadow: 2px 2px rgba(112, 107, 107, 0.148);
+}
+.feel3{
+  font-size: 30px;
+  position: fixed;
+  left: 1375px;
+  top: 205px;
+}
+.dduck3{
+  position: fixed;
+  left: 1665px;
+  top: 205px;
+}
+.weth3{
+  font-size: 16px;
+  position: fixed;
+  left: 1375px;
+  top: 254px;
+}
+.ther3{
+  font-size: 16px;
+  position: fixed;
+  left: 1445px;
+  top: 254px; 
+}
+.ind3{
+  border-width: 1px;
+  border-color: rgba(65, 133, 54, 1);
+  border-style: solid;
+  border-radius: 20px;
+  width: 360px;
+  height: 150px;
+  position: fixed;
+  left: 1375px;
+  top: 297px;
+}
+.gul3{
+  font-size: 20px;
+  line-height: 22px;
+  position: fixed;
+  left: 1390px;
+  top: 314px;
+}
+.diary4{
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.17);
+  border-style: solid;
+  border-radius: 10px;
+  width: 460px;
+  height: 300px;
+  position: fixed;
+  left: 135px;
+  top: 580px;
+  box-shadow: 2px 2px rgba(112, 107, 107, 0.148);
+}
+.feel4{
+  font-size: 30px;
+  position: fixed;
+  left: 185px;
+  top: 605px;
+}
+.dduck4{
+  position: fixed;
+  left: 475px;
+  top: 605px;
+}
+.weth4{
+  font-size: 16px;
+  position: fixed;
+  left: 185px;
+  top: 654px;
+}
+.ther4{
+  font-size: 16px;
+  position: fixed;
+  left: 255px;
+  top: 654px; 
+}
+.ind4{
+  border-width: 1px;
+  border-color: rgba(65, 133, 54, 1);
+  border-style: solid;
+  border-radius: 20px;
+  width: 360px;
+  height: 150px;
+  position: fixed;
+  left: 185px;
+  top: 697px;
+}
+.gul4{
+  font-size: 20px;
+  line-height: 22px;
+  position: fixed;
+  left: 200px;
+  top: 714px;
+}
+.diary5{
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.17);
+  border-style: solid;
+  border-radius: 10px;
+  width: 460px;
+  height: 300px;
+  position: fixed;
+  left: 730px;
+  top: 580px;
+  box-shadow: 2px 2px rgba(112, 107, 107, 0.148);
+}
+.feel5{
+  font-size: 30px;
+  position: fixed;
+  left: 780px;
+  top: 605px;
+}
+.dduck5{
+  position: fixed;
+  left: 1070px;
+  top: 605px;
+}
+.weth5{
+  font-size: 16px;
+  position: fixed;
+  left: 780px;
+  top: 654px;
+}
+.ther5{
+  font-size: 16px;
+  position: fixed;
+  left: 850px;
+  top: 654px; 
+}
+.ind5{
+  border-width: 1px;
+  border-color: rgba(65, 133, 54, 1);
+  border-style: solid;
+  border-radius: 20px;
+  width: 360px;
+  height: 150px;
+  position: fixed;
+  left: 780px;
+  top: 697px;
+}
+.gul5{
+  font-size: 20px;
+  line-height: 22px;
+  position: fixed;
+  left: 795px;
+  top: 714px;
+}
+.diary6{
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0.17);
+  border-style: solid;
+  border-radius: 10px;
+  width: 460px;
+  height: 300px;
+  position: fixed;
+  left: 1325px;
+  top: 580px;
+  box-shadow: 2px 2px rgba(112, 107, 107, 0.148);
+}
+.feel6{
+  font-size: 30px;
+  position: fixed;
+  left: 1375px;
+  top: 605px;
+}
+.dduck6{
+  position: fixed;
+  left: 1665px;
+  top: 605px;
+}
+.weth6{
+  font-size: 16px;
+  position: fixed;
+  left: 1375px;
+  top: 654px;
+}
+.ther6{
+  font-size: 16px;
+  position: fixed;
+  left: 1445px;
+  top: 654px; 
+}
+.ind6{
+  border-width: 1px;
+  border-color: rgba(65, 133, 54, 1);
+  border-style: solid;
+  border-radius: 20px;
+  width: 360px;
+  height: 150px;
+  position: fixed;
+  left: 1375px;
+  top: 697px;
+}
+.gul6{
+  font-size: 20px;
+  line-height: 22px;
+  position: fixed;
+  left: 1390px;
+  top: 714px;
+}
