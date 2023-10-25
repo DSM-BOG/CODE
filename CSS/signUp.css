@@ -151,12 +151,16 @@ height: 435px;
 position: fixed;
 left: 1702px;
 top:262px;
-color: #fff;
 background-color: #3ED226;
 border: none;
 font-size: 40px;
 text-align: left;
 
+}
+
+button > a {
+  text-decoration: none;
+  color: #fff;
 }
 .shape1{
   width: 213px;
